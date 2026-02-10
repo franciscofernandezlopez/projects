@@ -32,3 +32,28 @@ dog2.bark()
 print(dog2.name)
 print(dog2.breed)
 print(dog2.owner.name)
+
+class Person: 
+    
+    # Defines a class -> "template" to define specific objects
+    
+    def __init__(self, name, age):
+        
+        # __init__ python method. Automatically runs when we create a new Python objects.
+        
+        self.name = name
+        self.age = age
+        
+        # For each instance of the person class, we initialize these values to be attributes of each person object.
+    
+    def greet(self):
+        
+        # This is a method that displays a greeting message.
+        
+        print(f"My name is {self.name} and I am {self.age} years old.")
+        
+person1 = Person("Alice", 30) # Instantiation (creation) of a person1 object. Each instance of the class has its own data.
+person1.greet()
+
+person2 = Person("Bob", 42) # Instantiation (creation) of a person2 object. Each instance of the class has its own data.
+person2.greet()
