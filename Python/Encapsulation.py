@@ -1,6 +1,8 @@
 # Encapsulation
 
 # Fundamental principal. Bundling the data and methods or behaviours of a class and only exposes necessary functionallities to the external world.
+# Encausulation: hides the complexity of internal implementation and exposes in 'public' methods that can be used in simple methods. 
+# Provides users with a simple and intuitive way of handling the public methods, while internal logic remains "hiden" in the class.
 
 class BadBankAccount:
     def __init__(self, balance):
