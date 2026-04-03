@@ -51,3 +51,9 @@ car.start()
 # When to use inheritance?
 #Clear "is-a" relationship
 # Promote code reuse by inheriting properties and behaviours
+
+# Key points on Fragile Base Class Problem:
+# Ripple Effect
+# Limited Extensibility
+# Brittle Software
+# Mitigation Strategies
